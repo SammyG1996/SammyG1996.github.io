@@ -218,6 +218,7 @@ header {
     
   }
   header {
+    margin-top: 1vw;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -231,6 +232,10 @@ header {
     top: 5vw;
     right: 0px;
     margin-bottom: 15vw;
+  }
+
+  .projectHeader {
+    margin-top: 5vw;
   }
   
 }
@@ -479,11 +484,18 @@ h1 {
     float: none;
   }
   .otherSections {
+    font-size: 3vw;
+    padding: 0px;
+    width: 100%;
     flex-direction: column;
+    display: flex;
+
   }
 
   .projectSections {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
   }
   
 }
