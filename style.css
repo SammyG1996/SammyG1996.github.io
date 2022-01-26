@@ -182,6 +182,7 @@ label:active:after {
 header {
   width: 50%;
   float: right;
+  margin-bottom: 10vw;
 }
 
  header section {
@@ -206,6 +207,10 @@ header {
   position: relative;
   top: 12vw;
   right: 35vw;
+}
+
+#secondprofilepic {
+  border-radius: 10%;
 }
 
 @media only screen and (max-width: 768px) {
