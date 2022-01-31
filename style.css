@@ -4,6 +4,7 @@ font-family: 'Titillium Web', sans-serif; */
 body {
   margin: 0%;
   font-family: 'Titillium Web', sans-serif;
+  overflow: hidden;
 
 }
 /* Properties for Light and Dark Mode */
@@ -244,6 +245,7 @@ header {
 
   .projectHeader {
     margin-top: 5vw;
+    margin-bottom: 0vw;
   }
   
 }
@@ -397,7 +399,7 @@ h1 {
 }
 
 .projectSections {
-  padding-top: 10vw;
+  padding-top: 0vw;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -407,8 +409,12 @@ h1 {
 
 }
 
+a{
+  color: rgba(0, 51, 105, 0.897);
+}
+
 .projectSections img {
-  width: 70vw;
+  width: 50vw;
 }
 
 .projectSections figcaption {
