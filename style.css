@@ -1,6 +1,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web:ital,wght@0,300;0,600;1,300;1,600&display=swap');
 /* font-family: 'Bebas Neue', cursive;
 font-family: 'Titillium Web', sans-serif; */
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  body nav li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 51, 105, 0.904);
+    padding: 14px 30px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    
+  }
+
+  body label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 10%;
+    height: 3%;
+    background: rgb(27, 27, 27);
+    display: block;
+    border-radius: 90px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 40%;
+    height: 75%;
+    background: grey;
+    border-radius: 90px;
+    transition: .3s;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  body header {
+    margin-top: 1vw;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  body p {
+    text-align: center;
+  }
+
+  body header figure img {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    top: 5vw;
+    right: 0px;
+    margin-bottom: 15vw;
+  }
+
+  .projectHeader {
+    margin-top: 5vw;
+  }
+
+  @keyframes leftslidein {
+    from {
+      margin-left: 150%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .slowLeftSlidIn {
+    animation-duration: 1.5s;
+    animation-name: slowLeftSlidIn;
+   }
+  
+   @keyframes slowLeftSlidIn {
+    from {
+      margin-left: 150%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  body .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wrapper h1 {
+     font-size: 10vw;
+   }
+  
+   .wrapper h2 {
+     font-size: 5vw;
+   }
+
+
+  body .firstSection{
+    font-size: 3vw;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    float: none;
+  }
+  body .otherSections {
+    font-size: 3vw;
+    padding: 0px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+
+  }
+
+  body .projectSections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
+
+
+
+
+
 body {
   margin: 0%;
   font-family: 'Titillium Web', sans-serif;
@@ -69,22 +235,6 @@ nav li a {
   
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  nav li a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(0, 51, 105, 0.904);
-    padding: 14px 30px;
-    text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 5vw;
-    
-  }
-  
-}
-
 
 nav li a:hover {
   color: rgb(78, 78, 78);
@@ -143,37 +293,6 @@ label:active:after {
 	width: 40%;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-
-  
-  label {
-    cursor: pointer;
-    text-indent: -9999px;
-    width: 10%;
-    height: 3%;
-    background: rgb(27, 27, 27);
-    display: block;
-    border-radius: 90px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-  }
-  
-  label:after {
-    content: '';
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 40%;
-    height: 75%;
-    background: grey;
-    border-radius: 90px;
-    transition: .3s;
-  }
-  
-}
-
 
 /* ------------------------------------------------------ */
 
@@ -210,41 +329,6 @@ header {
 
 #secondprofilepic {
   border-radius: 10%;
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  body header {
-    margin-top: 1vw;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
-
-  body p {
-    text-align: center;
-  }
-
-  body header figure img {
-    width: 90%;
-    height: 90%;
-    position: relative;
-    top: 5vw;
-    right: 0px;
-    margin-bottom: 15vw;
-  }
-
-  .projectHeader {
-    margin-top: 5vw;
-  }
-  
 }
 
  .leftSlidIn {
@@ -432,84 +516,6 @@ a{
   color: rgb(78, 78, 78);
 }
 
-
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  @keyframes leftslidein {
-    from {
-      margin-left: 150%;
-      width: 100%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
-  .slowLeftSlidIn {
-    animation-duration: 1.5s;
-    animation-name: slowLeftSlidIn;
-   }
-  
-   @keyframes slowLeftSlidIn {
-    from {
-      margin-left: 150%;
-      width: 100%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
-  body .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .wrapper h1 {
-     font-size: 10vw;
-   }
-  
-   .wrapper h2 {
-     font-size: 5vw;
-   }
-
-
-  body .firstSection{
-    font-size: 3vw;
-    padding: 0px;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    float: none;
-  }
-  body .otherSections {
-    font-size: 3vw;
-    padding: 0px;
-    width: 100%;
-    flex-direction: column;
-    display: flex;
-
-  }
-
-  body .projectSections {
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-  }
-  
-}
 
 
 
