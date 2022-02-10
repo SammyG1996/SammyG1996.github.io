@@ -145,7 +145,14 @@ font-family: 'Titillium Web', sans-serif; */
     justify-content: center
   }
 
-
+  section article span {
+  font-size: 3vw;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  }
 
 
 
@@ -470,6 +477,14 @@ h1 {
   align-content: center;
   align-items: center;
 }
+
+article span {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  }
 
 .smallerImg img{
   width: 10vw;
