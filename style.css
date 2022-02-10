@@ -215,6 +215,10 @@ body {
 .dark figcaption {
   color: whitesmoke;
 }
+
+.dark section article span{
+  color: whitesmoke;
+}
 /* ---------------------------------- */
 
 /* Nav Styles */
