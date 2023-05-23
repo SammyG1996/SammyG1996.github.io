@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f6d28bb0.css",
+    "main.js": "/react-portfolio/static/js/main.dc1cbd4b.js",
+    "static/media/my-weather-proj.png": "/react-portfolio/static/media/my-weather-proj.06715d02fdfdc2099348.png",
+    "static/media/tv_maze_proj.png": "/react-portfolio/static/media/tv_maze_proj.7d1992b6d251bab7ec23.png",
+    "static/media/portfolio-proj.png": "/react-portfolio/static/media/portfolio-proj.69b804f00f98021b107c.png",
+    "static/media/organization-proj.png": "/react-portfolio/static/media/organization-proj.e3b0d5c27db2bdd91f51.png",
+    "static/media/profile_pic.jpeg": "/react-portfolio/static/media/profile_pic.0beed7dfef0bda325031.jpeg",
+    "static/media/jquery.png": "/react-portfolio/static/media/jquery.e720f2aa92589b35298e.png",
+    "static/media/react.png": "/react-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/flask.png": "/react-portfolio/static/media/flask.224f74b440c74d939baf.png",
+    "static/media/node.png": "/react-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/sg_logo.png": "/react-portfolio/static/media/sg_logo.e5f0c4a7d8564526ddf6.png",
+    "static/media/bootstrap.png": "/react-portfolio/static/media/bootstrap.bea6f1e20c180b4b973e.png",
+    "static/media/postgresql.png": "/react-portfolio/static/media/postgresql.840c01a46a2fb69f5454.png",
+    "static/media/html.png": "/react-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/react-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/react-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/react-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f6d28bb0.css.map": "/react-portfolio/static/css/main.f6d28bb0.css.map",
+    "main.dc1cbd4b.js.map": "/react-portfolio/static/js/main.dc1cbd4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6d28bb0.css",
+    "static/js/main.dc1cbd4b.js"
+  ]
+}
