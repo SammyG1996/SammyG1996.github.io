@@ -65,10 +65,10 @@ const Work = () => {
                         <div>
                             {/* <a href="/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
+                            </a> */}
+                            <a target='_blank' rel='noreferrer noopener' href="https://github.com/SammyG1996/SammyG1996.github.io">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>  */}
+                            </a> 
                         </div>
                     </div>
                 </div>
