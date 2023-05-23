@@ -18,7 +18,7 @@ const About = () => {
                     <p>Hi, Im Sam, nice to meet you. Please take a look around.</p>
                 </div>
                 <div>
-                   <p>I love challenges. The harder the problem, the more exhilarating it is to solve. I’m a team player and I will give my all to any organization I work with. I have been in tech for over 4 years now and have specialized in software development for over 1 ½ years. This understanding paired with my programming knowledge enables me to build full-stack applications with a focus on a responsive user experience.</p>
+                   <p>I love challenges. The harder the problem, the more exhilarating it is to solve. I’m a team player and I will give my all to any organization I work with. I have been in tech for over 4 years now and have specialized in software development for 2 years. This understanding paired with my programming knowledge enables me to build full-stack applications with a focus on a responsive user experience.</p>
                 </div>
             </div>
 
