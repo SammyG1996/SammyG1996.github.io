@@ -18,7 +18,7 @@ export const Skills = () => {
     // Needed to use h-full in order to contain elms in DIV
     <div name='skills' className='w-full h-full bg-slate-900 text-gray-300'>
         {/* container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full relative z-10'>
             <div className='mt-[100px]'>
                 <p className='text-4xl font-bold inline border-b-4 border-blue-200'>Experience</p>
                 <p className='py-4'>// Here's my tech stack</p>
