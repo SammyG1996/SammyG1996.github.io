@@ -3,6 +3,7 @@ import MyWeatherProject from '../assets/my-weather-proj.png';
 import OrganizationProject from '../assets/organization-proj.png';
 import TvMazeProject from '../assets/tv_maze_proj.png'
 import PortfolioProject from '../assets/portfolio-proj.png'
+import MarioGame from '../assets/mario_game.png'
 
 
 
@@ -67,6 +68,24 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a> */}
                             <a target='_blank' rel='noreferrer noopener' href="https://github.com/SammyG1996/SammyG1996.github.io">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+
+                {/* Card */}
+                <div style={{backgroundImage: `url(${MarioGame})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Vanilla JS Game
+                        </span>
+                        <div>
+                            <a target='_blank' rel='noreferrer noopener' href="https://sammyg1996.github.io/memorygame/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a target='_blank' rel='noreferrer noopener' href="https://github.com/SammyG1996/memorygame">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a> 
                         </div>
