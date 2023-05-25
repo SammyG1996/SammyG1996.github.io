@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c83212f5.css",
-    "main.js": "/static/js/main.ff3eeb89.js",
+    "main.js": "/static/js/main.446d4d88.js",
+    "static/media/mario_game.png": "/static/media/mario_game.433ddaf8152cd63b5ec5.png",
     "static/media/my-weather-proj.png": "/static/media/my-weather-proj.06715d02fdfdc2099348.png",
     "static/media/portfolio-proj.png": "/static/media/portfolio-proj.3544729c188bf00d3fb5.png",
     "static/media/tv_maze_proj.png": "/static/media/tv_maze_proj.7d1992b6d251bab7ec23.png",
@@ -20,10 +21,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.c83212f5.css.map": "/static/css/main.c83212f5.css.map",
-    "main.ff3eeb89.js.map": "/static/js/main.ff3eeb89.js.map"
+    "main.446d4d88.js.map": "/static/js/main.446d4d88.js.map"
   },
   "entrypoints": [
     "static/css/main.c83212f5.css",
-    "static/js/main.ff3eeb89.js"
+    "static/js/main.446d4d88.js"
   ]
 }
