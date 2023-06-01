@@ -3,7 +3,7 @@ import MyWeatherProject from '../assets/my-weather-proj.png';
 import OrganizationProject from '../assets/organization-proj.png';
 import TvMazeProject from '../assets/tv_maze_proj.png'
 import PortfolioProject from '../assets/portfolio-proj.png'
-import MarioGame from '../assets/mario_game.png'
+import Jobly from '../assets/jobly.png'
 
 
 
@@ -19,6 +19,27 @@ const Work = () => {
             </div>
             {/* Card Container */}
             <div className='grid sm:grid-cols-2 gap-4'>
+
+                {/* Card */}
+                <div style={{backgroundImage: `url(${Jobly})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+                    {/* Hover Effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Full Stack React And Node JS Application
+                        </span>
+                        <div>
+                            <a target='_blank' rel='noreferrer noopener' href="https://jobly-react.onrender.com/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a target='_blank' rel='noreferrer noopener' href="https://github.com/SammyG1996/jobly_react_application">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>React Code</button>
+                            </a> 
+                            <a target='_blank' rel='noreferrer noopener' href="https://github.com/SammyG1996/Jobly_NodeJS">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Node JS Code</button>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
 
                 {/* Card */}
                 <div style={{backgroundImage: `url(${MyWeatherProject})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
@@ -74,23 +95,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* Card */}
-                <div style={{backgroundImage: `url(${OrganizationProject})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
-                    {/* Hover Effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div>
-                            <a target='_blank' rel='noreferrer noopener' href="https://sammyg1996.github.io/organization-app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a target='_blank' rel='noreferrer noopener' href="https://github.com/SammyG1996/organization-app">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a> 
-                        </div>
-                    </div>
-                </div>
+
 
             </div>
         </div>
