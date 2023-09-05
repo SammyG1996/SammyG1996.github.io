@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c83212f5.css",
-    "main.js": "/static/js/main.289a53d4.js",
+    "main.js": "/static/js/main.60f5cf12.js",
     "static/media/my-weather-proj.png": "/static/media/my-weather-proj.06715d02fdfdc2099348.png",
     "static/media/portfolio-proj.png": "/static/media/portfolio-proj.3544729c188bf00d3fb5.png",
     "static/media/my-cal-buddy-proj.png": "/static/media/my-cal-buddy-proj.49edfee51f0c6b545034.png",
@@ -10,7 +10,7 @@
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/flask.png": "/static/media/flask.224f74b440c74d939baf.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/profile_pic.jpeg": "/static/media/profile_pic.c89d3adf3d12eff0082d.jpeg",
+    "static/media/profile_pic.jpeg": "/static/media/profile_pic.6f1e869d6fa54ab29c2e.jpeg",
     "static/media/sg_logo.png": "/static/media/sg_logo.e5f0c4a7d8564526ddf6.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.bea6f1e20c180b4b973e.png",
     "static/media/postgresql.png": "/static/media/postgresql.840c01a46a2fb69f5454.png",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.c83212f5.css.map": "/static/css/main.c83212f5.css.map",
-    "main.289a53d4.js.map": "/static/js/main.289a53d4.js.map"
+    "main.60f5cf12.js.map": "/static/js/main.60f5cf12.js.map"
   },
   "entrypoints": [
     "static/css/main.c83212f5.css",
-    "static/js/main.289a53d4.js"
+    "static/js/main.60f5cf12.js"
   ]
 }
