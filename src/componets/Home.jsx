@@ -27,13 +27,23 @@ const Home = () => {
                 <a target='_blank' rel='noreferrer noopener' href="mailto:sgonzalezjr1914@gmail.com" className=' bg-blue-400  text-white group px-2 py-2 my-2 flex items-center justify-between hover:bg-blue-200'>Email<HiOutlineMail size={30} className='ml-1'/> </a>
                 <a target='_blank' rel='noreferrer noopener' href="https://drive.google.com/file/d/1Ov3Q_7IMBTlKPu8rETeKBGz-Y_19cNQ5/view" className=' bg-blue-900  text-white group px-2 py-2 my-2 flex items-center justify-between hover:bg-blue-700'>Resume <BsFillPersonLinesFill size={30} className='ml-1'/> </a>
             </div>
-            <div>
+            <div className='flex flex-col md:flex-row'>
                 {/* Grouping the BTN with the span tells tailwind that the animation is to happen when hover happens on any items in group */}
-                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-200 relative z-10'>
+                <button className='max-w-[180px] text-white group border-2 px-6 py-3 my-2 mr-2 flex items-center hover:bg-blue-200 relative z-10'>
                     
                     <Link to="work" smooth={true} duration={500}>
                         View Work 
                     </Link>
+
+                    <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3'/></span>
+                </button>
+                {/* Grouping the BTN with the span tells tailwind that the animation is to happen when hover happens on any items in group */}
+                <button className='max-w-[180px] text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-200 relative z-10'>
+                    
+                    <Link to="upcommingprojects" smooth={true} duration={500}>
+                        View Projects 
+                    </Link>
+
                     <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3'/></span>
                 </button>
             </div>

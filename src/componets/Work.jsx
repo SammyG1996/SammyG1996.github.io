@@ -13,7 +13,7 @@ const Work = () => {
         {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full mt-[100px] relative z-10'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-blue-200'>Work</p>
+                <p className='text-4xl font-bold inline border-b-4 border-blue-200'>Finished Work</p>
                 <p className='py-6'>Check out some of my recent work</p>
             </div>
             {/* Card Container */}
