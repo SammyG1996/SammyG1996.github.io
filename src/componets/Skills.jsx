@@ -1,17 +1,17 @@
 import React from 'react'
 
-import Html from '../assets/html.png';
 import Javascript from '../assets/javascript.png';
 import CSS from '../assets/css.png';
 import MUI from '../assets/material_ui.png';
 import BootStrap from '../assets/bootstrap.png';
 import Tailwind from '../assets/tailwind.png';
 import ReactJs from '../assets/react.png';
-import JQuery from '../assets/jquery.png';
+import MongoDB from '../assets/mongodb.png';
 import NodeJs from '../assets/node.png';
 import PostgeSQL from '../assets/postgresql.png';
 import Python from '../assets/python.png';
 import Flask from '../assets/flask.png';
+import TypeScript from '../assets/typescript.png'
 
 export const Skills = () => {
   return (
@@ -26,12 +26,12 @@ export const Skills = () => {
             {/* icon container DIV */}
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='bg-slate-800 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img src={Html} alt="html icon" className='h-20 mx-auto'/>
-                    <p className='mt-4'>HTML</p>
-                </div>
-                <div className='bg-slate-800 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
                     <img src={Javascript} alt="Javascript icon" className='h-20 mx-auto'/>
                     <p className='mt-4'>Javascript</p>
+                </div>
+                <div className='bg-slate-800 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
+                    <img src={TypeScript} alt="TypeScript icon" className='h-20 mx-auto'/>
+                    <p className='mt-4'>TypeScript</p>
                 </div>
                 <div className='bg-slate-800 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
                     <img src={CSS} alt="CSS icon" className='h-20 mx-auto'/>
@@ -54,8 +54,8 @@ export const Skills = () => {
                     <p className='mt-4'>Tailwind</p>
                 </div>
                 <div className='bg-slate-800 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
-                    <img src={JQuery} alt="JQuery icon" className='h-20 mx-auto'/>
-                    <p className='mt-4'>JQuery</p>
+                    <img src={MongoDB} alt="MongoDB icon" className='h-20 mx-auto'/>
+                    <p className='mt-4'>MongoDB</p>
                 </div>
                 <div className='bg-slate-800 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-4'>
                     <img src={NodeJs} alt="NodeJs icon" className='h-20 mx-auto'/>
