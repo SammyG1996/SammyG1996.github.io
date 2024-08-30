@@ -48,9 +48,9 @@ const Work = () => {
                             Full Stack Flask Application
                         </span>
                         <div>
-                            <a target='_blank' rel='noreferrer noopener' href="https://my-weather-tbvb.onrender.com">
+                            {/* <a target='_blank' rel='noreferrer noopener' href="https://my-weather-tbvb.onrender.com">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
+                            </a> */}
                             <a target='_blank' rel='noreferrer noopener' href="https://github.com/SammyG1996/capstone_1">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a> 
