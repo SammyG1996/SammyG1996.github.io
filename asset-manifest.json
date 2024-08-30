@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96cdedfe.css",
-    "main.js": "/static/js/main.cc66e56e.js",
+    "main.js": "/static/js/main.c5cf1a9b.js",
     "static/media/GymPal.png": "/static/media/GymPal.25a7f807e7351f46f0ad.png",
     "static/media/my-cal-buddy-proj.png": "/static/media/my-cal-buddy-proj.e6b3274c0d6bd18e5bff.png",
     "static/media/my-weather-proj.png": "/static/media/my-weather-proj.06715d02fdfdc2099348.png",
@@ -21,10 +21,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.96cdedfe.css.map": "/static/css/main.96cdedfe.css.map",
-    "main.cc66e56e.js.map": "/static/js/main.cc66e56e.js.map"
+    "main.c5cf1a9b.js.map": "/static/js/main.c5cf1a9b.js.map"
   },
   "entrypoints": [
     "static/css/main.96cdedfe.css",
-    "static/js/main.cc66e56e.js"
+    "static/js/main.c5cf1a9b.js"
   ]
 }
